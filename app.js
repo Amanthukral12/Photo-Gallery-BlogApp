@@ -17,10 +17,10 @@ var commentRoutes = require("./routes/comments"),
 	campgroundRoutes = require("./routes/campgrounds"),
 	indexRoutes = require("./routes/index")
 
-//var url = "mongodb+srv://Aman:y5EXAGhxxfEmWGMs@yelpcamp.fdfv5.mongodb.net/photogallery?retryWrites=true&w=majority";
+var url = process.env.DATABASEURL || "mongodb://localhost:27017/photogallery";
 
 mongoose
-	.connect("mongodb+srv://Aman:qJo7qAcNgcU3U5k6@photogallery.178w4.mongodb.net/photogallery?retryWrites=true&w=majority", {
+	.connect(url, {
 		useUnifiedTopology: true,
 		useNewUrlParser: true,
 	});
