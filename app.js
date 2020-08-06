@@ -20,7 +20,7 @@ var commentRoutes = require("./routes/comments"),
 //var url = "mongodb+srv://Aman:y5EXAGhxxfEmWGMs@yelpcamp.fdfv5.mongodb.net/photogallery?retryWrites=true&w=majority";
 
 mongoose
-	.connect("mongodb+srv://Aman:y5EXAGhxxfEmWGMs@yelpcamp.fdfv5.mongodb.net/photogallery?retryWrites=true&w=majority", {
+	.connect("mongodb+srv://Aman:qJo7qAcNgcU3U5k6@photogallery.178w4.mongodb.net/photogallery?retryWrites=true&w=majority", {
 		useUnifiedTopology: true,
 		useNewUrlParser: true,
 	});
