@@ -17,10 +17,10 @@ var commentRoutes = require("./routes/comments"),
 	campgroundRoutes = require("./routes/campgrounds"),
 	indexRoutes = require("./routes/index")
 
-var url = "mongodb+srv://Aman:y5EXAGhxxfEmWGMs@yelpcamp.fdfv5.mongodb.net/photogallery?retryWrites=true&w=majority";
+//var url = "mongodb+srv://Aman:y5EXAGhxxfEmWGMs@yelpcamp.fdfv5.mongodb.net/photogallery?retryWrites=true&w=majority";
 
 mongoose
-	.connect(url, {
+	.connect("mongodb+srv://Aman:y5EXAGhxxfEmWGMs@yelpcamp.fdfv5.mongodb.net/photogallery?retryWrites=true&w=majority", {
 		useUnifiedTopology: true,
 		useNewUrlParser: true,
 	});
