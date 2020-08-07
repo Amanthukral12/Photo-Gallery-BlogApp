@@ -2,7 +2,7 @@
 
 
 <div class="container">
-	<header class="jumbotron">
+	<header class="jumbotron" style="background-color: black; color: white;">
 		<div class="container">
 			<h1><i class="map icon"></i>Welcome To Photo Gallery BlogApp</h1>
 			<p>View our photo gallery blog from people from all over the world</p>
@@ -15,7 +15,7 @@
 	<div class="row text-center" style="display:flex; flex-wrap:wrap;">
 		<% campgrounds.forEach(function(campground){ %>
 		<div class="col-md-3 col-sm-6">
-			<div class="thumbnail">
+			<div class="thumbnail" style="border: 2px solid black; padding: 10px;">
 				<img src="<%= campground.image %>">
 				<div class="caption">
 					<h4><%= campground.name %></h4>
