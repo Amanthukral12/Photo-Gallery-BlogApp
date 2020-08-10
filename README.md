@@ -1,6 +1,8 @@
-# YelpCamp
+# PhotoGallery Blog
 
 Full stack web dev project
+
+The Project can be viewed at: https://photo-gallery-blogapp.herokuapp.com/
 
 
 
